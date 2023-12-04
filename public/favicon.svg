@@ -1,0 +1,28 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_7_3)">
+<g filter="url(#filter0_d_7_3)">
+<path d="M84 26H80H76V18H72H68H60V26H56H52V38H48H44V30V26H36V18H28H24H20V26H12V62H20V70H28V78H40V90H48H56V78H68V70H76V62H84V26Z" fill="black"/>
+</g>
+<rect x="-9" y="6" width="96" height="96" fill="url(#pattern0)"/>
+<rect x="58" y="37" width="8" height="16" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_7_3" x="8" y="18" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_3" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_7_3" transform="scale(0.0104167)"/>
+</pattern>
+<clipPath id="clip0_7_3">
+<rect width="96" height="96" fill="white"/>
+</clipPath>
+<image id="image0_7_3" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAABZUlEQVR4nO2V0W1DMQwDPWDWueH91S5Q4CF1AhLyHaB/ijTltURERERERERERP4J+/VzMutyfeMXpFzf+AUp1zd+Qcr1jV+Qcn3jF6Rc3/gFKdc3fkHK9X19gW8bQLk+A9gGYANOaK845fqOaV+Qcn0GsA3ABpzQXnHK9R3TviDl+gxgG4ANOKG94pTrOya9IOVjANsA4q8QG5A3Ak9Q3gwC4x+wDSD+CrEBeSPwBOXNIDD+AdsA4q8QG5A3Ak9Q3gwC4x+wDSD+CrEBeSPwBOXNIDD+AdsA4q8QG5A3Ak9Q3gwC4x+wDSD+CrEBeSOYeoKeSBvAdIOfSBuEAeRNwgbkjcITNHNWO2mDMIC8SdiAvFHceoKeSBvIdIOfSBuMAeRNxgbkjcYTlDf7r1nTSRuMAeRNxgbkjebWE/QuaKgBXA02wACuBhtgAFeDDTCAq8EGGMDVYAMMQEREREREREREZH2AX93PfMoYp63bAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
