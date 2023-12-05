@@ -6,7 +6,6 @@ import Main from "./components/section/Main";
 const Home = lazy(() => import("./pages/Home"));
 const Today = lazy(() => import("./pages/Today"));
 const Artist = lazy(() => import("./pages/Artist"));
-const Youtube = lazy(() => import("./pages/Youtube"));
 const Channel = lazy(() => import("./pages/Channel"));
 const Video = lazy(() => import("./pages/Video"));
 const Search = lazy(() => import("./pages/Search"));
@@ -20,7 +19,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
           <Route path="/artist" element={<Artist />} />
-          <Route path="/youtube" element={<Youtube />} />
           <Route path="/channel" element={<Channel />} />
           <Route path="/video" element={<Video />} />
           <Route path="/search/:searchId" element={<Search />} />
