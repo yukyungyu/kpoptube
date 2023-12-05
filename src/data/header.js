@@ -3,7 +3,7 @@ import { CiHeart } from "react-icons/ci";
 
 export const headerMenus = [
   {
-    title: "home",
+    title: "홈",
     icons: <AiOutlineHome />,
     src: "/",
   },

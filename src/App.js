@@ -1,23 +1,21 @@
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import Home from "./pages/Home";
-import Today from "./pages/Today";
-import Artist from "./pages/Artist";
-import Youtube from "./pages/Youtube";
-import Channel from "./pages/Channel";
-import Video from "./pages/Video";
-import Search from "./pages/Search";
-import Not from "./pages/Not";
-
-import Header from "./components/section/Header";
 import Main from "./components/section/Main";
-import Footer from "./components/section/Footer";
+
+// 비동기적으로 컴포넌트 로드
+const Home = lazy(() => import("./pages/Home"));
+const Today = lazy(() => import("./pages/Today"));
+const Artist = lazy(() => import("./pages/Artist"));
+const Youtube = lazy(() => import("./pages/Youtube"));
+const Channel = lazy(() => import("./pages/Channel"));
+const Video = lazy(() => import("./pages/Video"));
+const Search = lazy(() => import("./pages/Search"));
+const Not = lazy(() => import("./pages/Not"));
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Main>
+      <Suspense fallback={<Main />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
@@ -28,8 +26,7 @@ function App() {
           <Route path="/search/:searchId" element={<Search />} />
           <Route path="*" element={<Not />} />
         </Routes>
-      </Main>
-      <Footer />
+      </Suspense>
     </BrowserRouter>
   );
 }
