@@ -1,5 +1,9 @@
 /* 로고 */
 .header__logo {
+  @media (max-width: 800px) {
+    border-bottom: 0;
+  }
+
   a {
     display: flex;
     align-items: center;

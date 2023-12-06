@@ -6,7 +6,6 @@ import { headerMenus, searchKeyword } from "../../data/header";
 
 const Menu = () => {
   const location = useLocation();
-  console.log(decodeURI(location.pathname));
 
   return (
     <nav className="header__menu">

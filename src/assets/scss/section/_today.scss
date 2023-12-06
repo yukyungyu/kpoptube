@@ -1,0 +1,51 @@
+.today__inner {
+  margin-bottom: 3.125rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--white200);
+
+  .today__thumb {
+  }
+
+  .today__text {
+    .today {
+      background-color: rgba(213, 2, 2, 0.8);
+      color: var(--white);
+      padding: 3px 50px;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    .title {
+      font-size: 1.25rem;
+    }
+
+    .info {
+      margin-top: 0.625rem;
+
+      .author,
+      .date {
+        font-size: 0.8rem;
+        color: var(--black100);
+      }
+
+      .author {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-right: 6px;
+      }
+
+      .desc {
+        margin-top: 0.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #todayPage,
+  #today {
+    margin-top: 80px;
+  }
+}
