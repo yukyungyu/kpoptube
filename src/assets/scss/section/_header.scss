@@ -2,6 +2,7 @@
 .header__logo {
   @media (max-width: 800px) {
     border-bottom: 0;
+    color: var(--white);
   }
 
   a {

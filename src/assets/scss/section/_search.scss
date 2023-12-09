@@ -3,6 +3,7 @@
   height: 80px;
   padding: 17px 40px;
   position: relative;
+  background-color: var(--white);
 
   label {
     width: 24px;
@@ -32,6 +33,7 @@
     z-index: 1000;
     padding: 17px;
     padding-left: 210px;
+    background-color: var(--black);
 
     label {
       left: 224px;
