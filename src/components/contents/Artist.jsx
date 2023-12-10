@@ -6,12 +6,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules";
 
-import { artistText } from "../../data/artist";
-
-const Artist = () => {
+const Artist = ({ videos, title, id }) => {
   return (
-    <section id="artist">
-      <h2>추천 아티스트</h2>
+    <section id={id}>
+      <h2>{title}</h2>
       <div className="artist__inner">
         <Swiper
           slidesPerView={4}
@@ -49,7 +47,7 @@ const Artist = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          {artistText.map((artist, key) => (
+          {videos.map((artist, key) => (
             <SwiperSlide key={key}>
               <div className="artist">
                 <div className="artist__img play__icon">

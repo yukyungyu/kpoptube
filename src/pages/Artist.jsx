@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
 import { Link } from "react-router-dom";
 import { artistText } from "../data/artist";
 
 const Artist = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  });
+
+  const artistClass = loading ? "isLoading" : "isLoaded";
+
   return (
     <Main title="케이팝 아티스트" description="케이팝 아티스트 페이지입니다.">
-      <section id="artistPage">
+      <section id="artistPage" className={artistClass}>
         <h2>추천 아티스트</h2>
         <div className="artist__inner">
           {artistText.map((artist, key) => (
