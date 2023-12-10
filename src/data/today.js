@@ -43,12 +43,11 @@ export const todayText = [
   },
   {
     img: todayView05,
-    title:
-      "LE SSERAFIM (르세라핌) 'Perfect Night' OFFICIAL M/V with OVERWATCH 2",
-    desc: "Creative Director : NU KIM",
-    author: "lesserafim",
-    channelId: "UC3IZKseVpdzPSBaWxBxundA",
-    date: "2023.10.27",
-    page: "/lesserafim",
+    title: "NewJeans (뉴진스) 'Ditto' Performance Video",
+    desc: "NewJeans (뉴진스) 'Ditto' Performance Video",
+    author: "newjeans",
+    channelId: "UCMki_UkHb4qSc0qyEcOHHJw",
+    date: "2022.12.30",
+    page: "/newjeans",
   },
 ];

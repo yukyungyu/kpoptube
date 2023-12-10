@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import { artistText } from "../../data/artist";
 
@@ -16,7 +16,6 @@ const Artist = () => {
         <Swiper
           slidesPerView={4}
           spaceBetween={15}
-          navigation={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -47,7 +46,7 @@ const Artist = () => {
               spaceBetween: 20,
             },
           }}
-          modules={[Autoplay, Navigation]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           {artistText.map((artist, key) => (

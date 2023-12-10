@@ -32,11 +32,6 @@ export const headerMenus = [
     icons: <CiHeart />,
     src: "/riize",
   },
-  {
-    title: "LE SSERAFIM",
-    icons: <CiHeart />,
-    src: "/lesserafim",
-  },
 ];
 
 export const searchKeyword = [
