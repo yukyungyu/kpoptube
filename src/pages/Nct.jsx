@@ -1,29 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
 import Main from "../components/section/Main";
+import VideoCard from "../components/videos/VideoCard";
 
 import { nctText } from "../data/nct";
 
 /* pages/nct */
 const Nct = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  }, []);
+
+  const nctPageClass = loading ? "isLoading" : "isLoaded";
+
   return (
     <Main title="NCT 영상" description="NCT 영상입니다.">
-      <section id="nctPage">
+      <section id="nctPage" className={nctPageClass}>
         <h2>NCT</h2>
         <div className="video__inner">
-          {nctText.map((video, key) => (
-            <div className="video" key={key}>
-              <div className="video__thumb play__icon">
-                <Link to={`/video/${video.videoId}`}>
-                  <img src={video.img} alt={video.title} />
-                </Link>
-              </div>
-              <div className="video__title">
-                <Link to={`/video/${video.videoId}`}>{video.title}</Link>
-              </div>
-            </div>
-          ))}
+          <VideoCard videos={nctText} />
         </div>
       </section>
     </Main>
