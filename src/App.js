@@ -27,7 +27,7 @@ function App() {
           <Route path="/nct" element={<Nct />} />
           <Route path="/newjeans" element={<Newjeans />} />
           <Route path="/riize" element={<Riize />} />
-          <Route path="/channel" element={<Channel />} />
+          <Route path="/channel/:channelId" element={<Channel />} />
           <Route path="/video/:videoId" element={<Video />} />
           <Route path="/search/:searchId" element={<Search />} />
           <Route path="*" element={<Not />} />
