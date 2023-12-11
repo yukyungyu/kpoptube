@@ -8,7 +8,7 @@ import riize07 from "../assets/img/riize/riize07.jpg";
 import riize08 from "../assets/img/riize/riize08.jpg";
 import riize09 from "../assets/img/riize/riize09.jpg";
 import riize10 from "../assets/img/riize/riize10.jpg";
-import riize11 from "../assets/img/riize/riize10.jpg";
+import riize11 from "../assets/img/riize/riize11.jpg";
 import riize12 from "../assets/img/riize/riize12.jpg";
 
 export const riizeText = [

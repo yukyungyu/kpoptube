@@ -14,15 +14,46 @@
   @media (max-width: 400px) {
     grid-template-columns: repeat(1, 100%);
   }
-}
-.video {
-  margin-bottom: 20px;
 
-  .video__thumb {
-    margin-bottom: 10px;
+  .video {
+    margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 10px;
+    }
+
+    .video__thumb {
+      margin-bottom: 10px;
+    }
+    .video__info {
+      .title {
+        @include line-two;
+      }
+
+      .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .author {
+          margin-top: 6px;
+          @include line-one;
+          color: #666;
+          transition: all 0.3s;
+
+          &:hover {
+            color: var(--black);
+          }
+        }
+        .date {
+          font-size: 14px;
+          color: #666;
+        }
+      }
+    }
   }
-  .video__title {
-    text-align: center;
-    @include line-one;
-  }
+}
+
+.video__inner.search {
+  min-height: 100vh;
 }

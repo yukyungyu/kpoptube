@@ -11,8 +11,15 @@ const VideoCard = ({ videos }) => {
               <img src={video.img} alt={video.title} />
             </Link>
           </div>
-          <div className="video__title">
-            <Link to={`/video/${video.videoId}`}>{video.title}</Link>
+          <div className="video__info">
+            <div className="title">
+              <Link to={`/video/${video.videoId}`}>{video.title}</Link>
+            </div>
+            <div className="info">
+              <span className="author">
+                <Link to={`/channel/${video.channelId}`}>{video.author}</Link>
+              </span>
+            </div>
           </div>
         </div>
       ))}
