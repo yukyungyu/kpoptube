@@ -3,6 +3,7 @@
   @media (max-width: 800px) {
     border-bottom: 0;
     color: var(--white);
+    background-color: var(--black);
   }
 
   a {
@@ -45,21 +46,42 @@
         line-height: 1;
         transition: all 0.3s;
 
+        @media (max-width: 800px) {
+          color: var(--white);
+        }
+
         svg {
           width: 1.25rem;
           height: 1.25rem;
           position: absolute;
           left: 1.25rem;
           top: 0.75rem;
+
+          @media (max-width: 800px) {
+            color: var(--white);
+          }
         }
 
         &:hover {
           background-color: var(--white200);
+
+          @media (max-width: 800px) {
+            color: var(--black);
+          }
         }
       }
 
       &.active a {
         background-color: var(--white200);
+
+        @media (max-width: 800px) {
+          background-color: var(--white);
+          color: var(--black);
+        }
+      }
+
+      &.active svg {
+        color: var(--black);
       }
     }
   }
@@ -78,9 +100,18 @@
         font-size: 0.8rem;
         transition: all 0.3s;
 
+        @media (max-width: 800px) {
+          color: var(--white);
+        }
+
         &:hover {
           background-color: var(--black200);
           color: var(--white);
+
+          @media (max-width: 800px) {
+            background-color: var(--white200);
+            color: var(--black);
+          }
         }
       }
 
