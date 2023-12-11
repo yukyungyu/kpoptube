@@ -1,6 +1,6 @@
 ## 완성작 보기
 
-미리보기 : https://github.com/yukyungyu/kpoptube
+미리보기 : [https://github.com/yukyungyu/kpoptube](https://kpop-tube.netlify.app/)
 
 ## 사용스택
 
