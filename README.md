@@ -2,6 +2,12 @@
 
 미리보기 : [https://github.com/yukyungyu/kpoptube](https://kpop-tube.netlify.app/)
 
+![케이팝튜브 메인](https://github.com/yukyungyu/kpoptube/assets/141790554/72d28eb2-2469-48d0-860a-7aac38b2aa86)
+![케이팝튜브 추천아티스트](https://github.com/yukyungyu/kpoptube/assets/141790554/cc505886-17b7-4c4b-aa21-94547878e556)
+![케이팝튜브 검색](https://github.com/yukyungyu/kpoptube/assets/141790554/6328d64f-8c53-48da-ad47-38efd96b5655)
+![케이팝튜브 채널](https://github.com/yukyungyu/kpoptube/assets/141790554/b7c23c84-9f2a-4ad0-90ec-a516c359f3e1)
+
+
 ## 사용스택
 
 - node.js를 설치하고 사용합니다.
