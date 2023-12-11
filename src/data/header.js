@@ -40,8 +40,8 @@ export const searchKeyword = [
     src: "/search/kpop",
   },
   {
-    title: "SMP",
-    src: "/search/smp",
+    title: "청량한",
+    src: "/search/청량한",
   },
   {
     title: "알앤비",

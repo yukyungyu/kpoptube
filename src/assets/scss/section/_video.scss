@@ -56,4 +56,128 @@
 
 .video__inner.search {
   min-height: 100vh;
+
+  .video {
+    margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 10px;
+    }
+
+    .video__thumb {
+      a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        padding-bottom: 56.25%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    .video__info {
+      .title {
+        @include line-two;
+      }
+
+      .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .author {
+          margin-top: 6px;
+          @include line-one;
+          color: #666;
+          transition: all 0.3s;
+
+          &:hover {
+            color: var(--black);
+          }
+        }
+        .date {
+          font-size: 14px;
+          color: #666;
+        }
+      }
+    }
+  }
+}
+
+.video__more {
+  button {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    background-color: var(--white200);
+    transition: all 0.3s;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 12px;
+
+    &:hover {
+      background-color: var(--black200);
+      color: var(--white);
+    }
+  }
+}
+
+#videoViewPage {
+  padding: 0;
+
+  @media (max-width: 800px) {
+    margin-top: 80px;
+  }
+}
+
+.video__view {
+  .video__play {
+    width: 100%;
+    padding-bottom: 56.2%;
+    position: relative;
+  }
+
+  .video__info {
+    padding: 40px;
+
+    .video__title {
+      font-weight: 800;
+    }
+
+    .video__channel {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      padding: 10px 0;
+
+      .id {
+        font-weight: 700;
+      }
+
+      .count {
+        span {
+          background-color: var(--white200);
+          padding: 6px 10px;
+          border-radius: 40px;
+          font-size: 14px;
+          margin-left: 10px;
+
+          svg {
+            width: 20px;
+            height: 20px;
+            vertical-align: -5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .video__desc {
+      background-color: var(--white200);
+      border-radius: 12px;
+      padding: 30px 10px;
+      white-space: pre-line;
+    }
+  }
 }
