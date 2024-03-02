@@ -1,6 +1,6 @@
 export const artistText = [
   {
-    img: "https://yt3.googleusercontent.com/NLsAYpltt2zBmx3NWyZkWoS-lGIMJjDvoFR1tFnwYXxUFQ4T7lvzSnKQqYvzLWrMcY5g2h2aNEM=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/teDf7-cdy2wvwGUIjWO9CzWnr8GAzaWWEvxXxFMmooXq4xRJYWAhqsPCf5eVdOGTGAU0oYI8LQ=s176-c-k-c0x00ffffff-no-rj",
     name: "NCT",
     channelAddress: "https://www.youtube.com/@NCTsmtown",
     channelId: "UCwgtORdDtUKhpjE1VBv6XfA",
@@ -24,31 +24,31 @@ export const artistText = [
     channelId: "UC9GtSLeksfK4yuJ_g1lgQbg",
   },
   {
-    img: "https://yt3.googleusercontent.com/sOTddZ6Q4aDLdfeeQuII1r7zmDPdshJ9TBHdavejViOzYBnHc6GJEJ6i7pwPMjCPQMA5z5olXw=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/Ds1h-60hOq6iiTIaumdWIFzzxxnwvbukxrsrw75J10xzJXasHRpFDqT8LW9rhQBxDb8Maj5p=s176-c-k-c0x00ffffff-no-rj",
     name: "RIIZE",
     channelAddress: "https://www.youtube.com/@RIIZE_official",
     channelId: "UCdVD0MsYecQaIE5Ru-pOIQQ",
   },
   {
-    img: "https://yt3.googleusercontent.com/NEfQOoYhPMyqVdLEGNZGWcKk6ZP93EGtZSqA8JQK85G28eAJb2PeQSywKXU6n9L1Ui8qdgmMpQ=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/h4R-hjyJmZ8uQGnhf94hkJR6lv_dhPEoc-bLrW8KPRf6cHl4CIvTf6lCJcnPoqZ8CRNCXyNnYQ=s176-c-k-c0x00ffffff-no-rj",
     name: "IVE",
     channelAddress: "https://youtube.com/@IVEstarship?si=fkk3pbdySReONvQh",
     channelId: "UC-Fnix71vRP64WXeo0ikd0Q",
   },
   {
-    img: "https://yt3.googleusercontent.com/PIK_vgS0ze8KwD9IVrHaJ2uRQvHkRSN01pl-wQNyRrTgCMk79cMgff4_QnX9XEwpvX0gwQ5s=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/J6mb_wipzr0WTjFpqLIChgrs-a2DszOd-idmib6mTpY-flI4LJTqQxVoHG8TCrdsGFUFry6R=s176-c-k-c0x00ffffff-no-rj",
     name: "LE SSERAFIM",
     channelAddress: "https://youtube.com/@LESSERAFIM_official",
     channelId: "UCs-QBT4qkj_YiQw1ZntDO3g",
   },
   {
-    img: "https://yt3.googleusercontent.com/dLGCnr9YbATXl48C6yhJnD-OuEWgTYZIdbLrzJD_YLCR7YtpfChrt-eVfWUsuXWDUDQIwOsO=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/SRpVM-37M6lqLEQyDFaSA5IrgEyr9eONMrkKkAx3g5z4uTNPN78rAWTLC6W2b5uKb2KptX03pQ=s176-c-k-c0x00ffffff-no-rj",
     name: "NewJeans",
     channelAddress: "https://youtube.com/@NewJeans_official",
     channelId: "UCMki_UkHb4qSc0qyEcOHHJw",
   },
   {
-    img: "https://yt3.googleusercontent.com/hZDUwjoeQqigphL4A1tkg9c6hVp5yXmbboBR7PYFUSFj5PIJSA483NB5v7b0XVoTN9GCku3tqQ=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/EMHEc8vNqHUC-eBFl_RrLcla7_NH6hEohpi0RrMABe6cOcmCabmnxcqfVFmONWTQg5LtbpNkQg=s176-c-k-c0x00ffffff-no-rj",
     name: "BLACKPINK",
     channelAddress: "https://youtube.com/@BLACKPINK",
     channelId: "UCOmHUn--16B90oW2L6FRR3A",
@@ -84,7 +84,7 @@ export const artistText = [
     channelId: "UCk9GmdlDTBfgGRb7vXeRMoQ",
   },
   {
-    img: "https://yt3.googleusercontent.com/gl3NdG0TiA6cpJ3uo_4glSt8aJoBcO6iQPnQ0ITAtB3ysovtREmiDNDGW10JyFqsGwyFKUaS=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/ZPJRdl0VwRzrwDDGxnr0JaH1kGwbgOPGBPERcmqYdvZ21UFiXW8fI6LLo2H55E53JXrrrrb3=s176-c-k-c0x00ffffff-no-rj",
     name: "SHINee",
     channelAddress: "https://youtube.com/@SHINee",
     channelId: "UCyPwRgc3gQGqhk6RoGS50Ug",
@@ -108,7 +108,7 @@ export const artistText = [
     channelId: "UCnCEKlzi52Yzj2JdBFhKVEA",
   },
   {
-    img: "https://yt3.googleusercontent.com/SwLJdut_lwABIEEyubQN4aOIsXq1DgBSNKBODRoRphUQn6WpCrjQAfKp1Nyq2XINO6eo-q55Iw=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/AjAYNmcxBRpfqg6Um8pAo2qAUpJ4BA2HBeOIEDx4EWAi_xZz_e_m7q4kto1_gEhnfhR0Vu4mxg=s176-c-k-c0x00ffffff-no-rj",
     name: "폴킴 Paul Kim Official",
     channelAddress: "https://youtube.com/@paulkimofficial",
     channelId: "UCU1dlpByUcGnVxlpaZglbVQ",
@@ -120,7 +120,7 @@ export const artistText = [
     channelId: "UCFPI8MI3zmzTlV4W-oSy-Ig",
   },
   {
-    img: "https://yt3.googleusercontent.com/pQV-DDpQWBTxh1i7pmX7qyMmCkT7lLDjabvaLMZjXsnkLytgmGaQU0yIoh-BjEUm6zyIff29=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.googleusercontent.com/dvd-gzPlhZYrfEI27chYYj0AvZLVNYca59Jtp1u5eCbIj44RkcwcFmVKyMG2QdfS16kPiB2WoQ=s176-c-k-c0x00ffffff-no-rj",
     name: "하현상 HA HYUN SANG",
     channelAddress: "https://youtube.com/@HyunSangHA_OFFICIAL",
     channelId: "UCnytBLlx84gko3E2VGmM3NQ",
