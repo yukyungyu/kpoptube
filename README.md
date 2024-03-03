@@ -1,5 +1,8 @@
-## 완성작 보기
+<div align=center>
+  
+![header](https://capsule-render.vercel.app/api?type=waving&color=f00&height=260&section=header&text=K-POP%20tube&fontSize=90&fontColor=fff)
 
+## 완성작 보기
 미리보기 : [https://github.com/yukyungyu/kpoptube](https://kpop-tube.netlify.app/)
 
 ### 메인
@@ -17,14 +20,17 @@
 
 ## 사용스택
 
-- node.js를 설치하고 사용합니다.
-- react를 사용하여 사이트를 완성합니다.
-- youTube Api를 이용하여 데이터를 가져옵니다.
-- rapidapi를 이용하여 데이터를 가져옵니다.
-- netlify를 통해 사이트를 배포합니다.
-- firebase를 통해 사이트를 배포합니다.
-- vercel를 통해 사이트를 배포합니다.
-- git을 사용하여 파일을 관리합니다.
+💚 rapidAPi 그리고 <br>
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+![scss](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+
 
 ## 프로젝트 실행
 
@@ -36,3 +42,7 @@
 - sass를 설치합니다. `npm install sass`
 - react-helmet-async를 설치합니다. `npm install react-helmet-async`
 - swiper를 설치합니다. `npm install swiper`
+
+ ![footer](https://capsule-render.vercel.app/api?type=soft&color=auto&height=120&section=header&text=goodbye&fontSize=90)
+
+</div>
