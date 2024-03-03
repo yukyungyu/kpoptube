@@ -3,7 +3,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=f00&height=260&section=header&text=K-POP%20tube&fontSize=90&fontColor=fff)
 
 ## 완성작 보기
-미리보기 : [https://github.com/yukyungyu/kpoptube](https://kpop-tube.netlify.app/)
+링크 : [https://github.com/yukyungyu/kpoptube](https://kpop-tube.netlify.app/)
 
 ### 메인
 ![케이팝튜브 메인](https://github.com/yukyungyu/kpoptube/assets/141790554/72d28eb2-2469-48d0-860a-7aac38b2aa86)
